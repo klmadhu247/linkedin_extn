@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .wand {
+    @apply absolute w-[15.47px] h-[13.87px] top-[9.07px] left-[8px] gap-0 text-[#2563EB] ;
+  }
+
+  .wand_Container {
+    @apply relative w-8 h-8 top-[1397px] left-[1786px] p-[9.07px_8.53px_9.07px_8px] gap-0 rounded-[200px] bg-[#FFFFFF] shadow-wand_Shadow hover:shadow-wand_Hover_Shadow;
+  
+  }
+  
+
+  .dialog_Box {
+    @apply  top-12 left-40 bg-dialBg w-dialWidth h-dialHeight  p-dialPadding gap-dialGap rounded-l-dialBorderRadius  shadow-dialShadow  ;
+    
+  }
+
+  .prompt_Input{
+    @apply  ml-10 w-propmtWidth h-propmtHeight gap-propmtGap rounded-propmtRadious  shadow-propmtShadow p-3 mt-4
+  }
+
+  .dial_2{
+    @apply w-dialWidth h-dial2Hieght gap-dialGap absolute top-12 left-40 bg-dialBg p-dialPadding shadow-dialShadow rounded-dialBorderRadius
+  }
+
+  .input_Prompt {
+  @apply flex items-center pl-4 font-inter text-gray-500 bg-gray-100 w-[472px] h-[68px] gap-4 rounded-2xl ;
+}
+
+.reply_msg {
+    @apply flex justify-start bg-replyBg ml-4 w-[818px] h-[108px] p-4 gap-4 rounded-[12px] mt-8
+}
+
+.button_Family
+{
+    @apply w-[367px] h-[53] flex ml-96 mt-6
+}
+
+.regenerate_Button {
+    @apply flex font-inter items-center w-[212px] h-[53px] bg-regenerateBg text-2xl text-white text-left font-semibold  ml-3 rounded-[8px];
+   
+   
+   
+
+  }
+
+  .insert_Button {
+    @apply flex font-inter items-center w-[129px] h-[53px] text-gray-500 
+            rounded-[8px] border-solid border-2 mr-3
+           
+  }
+  .arrow {
+    @apply w-[14.87px] h-[16.8px] 
+          top-[18.1px] left-[16px] 
+           gap-0 ml-4 mr-3
+}
+.refresh{
+@apply w-[17px] h-[23.8px] top-[15px] left-[21px] gap-[0px] mr-3
+
+}
+
+  
+
+
+  
+
+
+
+
+}
